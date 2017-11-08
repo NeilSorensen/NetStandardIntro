@@ -19,6 +19,9 @@ namespace RomanNumerals.Tests
         [TestCase(44, "XLIV")]
         [TestCase(50, "L")]
         [TestCase(88, "LXXXVIII")]
+        [TestCase(100, "C")]
+        [TestCase(500, "D")]
+        [TestCase(1000, "M")]
         public void NumbersShouldConvert(int value, string expectedRoman)
         {
             var converter = new RomanNumeral();

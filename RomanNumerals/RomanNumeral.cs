@@ -8,6 +8,9 @@ namespace RomanNumerals
     {
         private List<Tuple<int, string>> romanTokens = new List<Tuple<int, string>>
         {
+            new Tuple<int, string>(1000, "M"),
+            new Tuple<int, string>(500, "D"),
+            new Tuple<int, string>(100, "C"),
             new Tuple<int, string>(50, "L"),
             new Tuple<int, string>(40, "XL"),
             new Tuple<int, string>(10, "X"),
