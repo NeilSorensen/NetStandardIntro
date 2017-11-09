@@ -50,9 +50,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RomanNumerals\RomanNumerals.csproj">
-      <Project>{c5b0db9c-c955-4f10-9231-1bc39176b5b5}</Project>
-      <Name>RomanNumerals</Name>
+    <ProjectReference Include="..\RomanNumerals.Standard\RomanNumerals.Standard.csproj">
+      <Project>{62317ce5-97ab-42d4-9b96-ed7bbc940e62}</Project>
+      <Name>RomanNumerals.Standard</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
