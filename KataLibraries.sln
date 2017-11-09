@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Tests", "FizzBuzz.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals.Standard", "RomanNumerals.Standard\RomanNumerals.Standard.csproj", "{62317CE5-97AB-42D4-9B96-ED7BBC940E62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Standard", "StarWars.Standard\StarWars.Standard.csproj", "{C13C6964-96E4-4D43-9F1A-E075F8E35ACD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{62317CE5-97AB-42D4-9B96-ED7BBC940E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62317CE5-97AB-42D4-9B96-ED7BBC940E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62317CE5-97AB-42D4-9B96-ED7BBC940E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C13C6964-96E4-4D43-9F1A-E075F8E35ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13C6964-96E4-4D43-9F1A-E075F8E35ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C13C6964-96E4-4D43-9F1A-E075F8E35ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C13C6964-96E4-4D43-9F1A-E075F8E35ACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
