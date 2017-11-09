@@ -60,9 +60,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FizzBuzz\FizzBuzz.csproj">
-      <Project>{dfef3cc2-ef4e-404d-bcd2-e586176d947a}</Project>
-      <Name>FizzBuzz</Name>
+    <ProjectReference Include="..\FizzBuzz.Standard\FizzBuzz.Standard.csproj">
+      <Project>{e8eac6a7-0c2d-499b-bb09-6d3750481752}</Project>
+      <Name>FizzBuzz.Standard</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
